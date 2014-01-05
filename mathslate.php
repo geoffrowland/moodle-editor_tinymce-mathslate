@@ -46,7 +46,7 @@ if (array_key_exists($lang, $langmapping)) {
     $lang = $langmapping[$lang];
 }
 
-if (!file_exists("$CFG->dirroot/lib/mathslate/$lang/mathslate.php")) {
+if (!file_exists("$CFG->dirroot/lib/mathslate/lang/$lang/mathslate.php")) {
     $lang = 'en';
 }
 
